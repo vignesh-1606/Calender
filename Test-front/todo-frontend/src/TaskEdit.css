@@ -1,0 +1,83 @@
+/* Container for Task Form */
+.task-form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Title */
+  .form-title {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Layout */
+  .task-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form Groups */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  /* Input & Textarea Styling */
+  .input, .textarea, .select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  .textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  /* Button Styling */
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Focused Inputs */
+  .input:focus, .textarea:focus, .select:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  /* Toast Styling */
+  .toaster {
+    top: 30px;
+    right: 20px;
+    z-index: 999;
+  }
+  

@@ -1,0 +1,9 @@
+.cal-date{
+    position: absolute;
+    left: 45%;
+    top: 20%;
+}
+
+.whole1{
+    background-image: url(/todo-frontend/public/login-bg.png);
+}
